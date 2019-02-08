@@ -17,3 +17,9 @@ A super fast and extremely minimal shell prompt.
 # Inside your .bashrc, .zshrc, etc.
 . /path/to/promptless.sh
 ```
+
+### Tests
+
+Run `./test.sh` to run unit tests on `promptless`.
+
+**NOTE**: The testing framework requires `bash` since its *robust*.
