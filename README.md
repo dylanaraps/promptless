@@ -15,5 +15,5 @@ A super fast and extremely minimal shell prompt.
 
 ```sh
 # Inside your .bashrc, .zshrc, etc.
-source /path/to/promptless.sh
+. /path/to/promptless.sh
 ```
