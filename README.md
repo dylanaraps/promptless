@@ -22,4 +22,4 @@ A super fast and extremely minimal shell prompt.
 
 Run `./test.sh` to run unit tests on `promptless`.
 
-**NOTE**: The testing framework requires `bash` since its *robust*.
+**NOTE**: The testing framework requires `bash` since its **ROBUST**.
