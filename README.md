@@ -9,7 +9,7 @@ A super fast and extremely minimal shell prompt.
 - Lightweight
 - Pure Shell (*no external commands*)
 - No Dependencies
-- **Works in all shells.**
+- **Works in all shells (*that use `$PS1`*).**
 
 ### Installation
 
