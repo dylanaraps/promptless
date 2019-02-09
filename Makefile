@@ -2,12 +2,13 @@ PREFIX ?= /usr
 CHAR ?= ➜
 
 all:
-	@echo Run \'make install\' to install promptless.
+	@mkdir -p build
+	@cp -p promptless.sh build/promptless
+	@sed -i s/➜/$(CHAR)/ build/promptless
 
 install:
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
 	@cp -p promptless.sh $(DESTDIR)$(PREFIX)/bin/promptless.sh
-	@sed -i s/➜/$(CHAR)/ $(DESTDIR)$(PREFIX)/bin/promptless.sh
 	@chmod 755 $(DESTDIR)$(PREFIX)/bin/promptless.sh
 
 uninstall:

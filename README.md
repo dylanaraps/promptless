@@ -53,3 +53,11 @@ npm install promptless
 Run `./test.sh` to run unit tests on `promptless`.
 
 **NOTE**: The testing framework requires `bash` since its **ROBUST**.
+
+
+### Compile time options
+
+You can change the prompt character at compile time.
+
+```sh
+
