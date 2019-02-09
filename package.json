@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dylanaraps/promptless/issues"
   },
+  "scripts": {
+      "install" : "install.sh"
+  },
   "homepage": "https://github.com/dylanaraps/promptless"
 }

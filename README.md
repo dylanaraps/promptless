@@ -31,6 +31,12 @@ A super fast and extremely minimal shell prompt.
 curl "https://raw.githubusercontent.com/dylanaraps/promptless/master/install.sh" | sh
 ```
 
+**Webscale**
+
+```sh
+npm install promptless
+```
+
 **Manual**
 
 ```sh
