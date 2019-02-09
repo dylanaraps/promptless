@@ -17,21 +17,21 @@ A super fast and extremely minimal shell prompt.
 - No Dependencies
 - Works in all shells (*that use `$PS1`*).
 
-
-## Philosophy
-
-`promptless` follows the [suckless philosophy](https://suckless.org/philosophy/) and is simple by design. The code-base has a focus on elegance and clarity. The prompt is entirely hackable. Unnecessary and unworthy features need to be patched in.
-
-
 ## Table of Contents
 
 <!-- vim-markdown-toc GFM -->
 
+* [Philosophy](#philosophy)
 * [Installation](#installation)
 * [Tests](#tests)
 * [Compile time options](#compile-time-options)
 
 <!-- vim-markdown-toc -->
+
+
+## Philosophy
+
+`promptless` follows the [suckless philosophy](https://suckless.org/philosophy/) and is simple by design. The code-base has a focus on elegance and clarity. The prompt is entirely hackable. Unnecessary and unworthy features need to be patched in.
 
 
 ## Installation
