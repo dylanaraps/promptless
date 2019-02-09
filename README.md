@@ -57,7 +57,8 @@ Run `./test.sh` to run unit tests on `promptless`.
 
 ### Compile time options
 
-You can change the prompt character at compile time.
+You can customize the prompt character at compile time.
 
 ```sh
-
+make CHAR=">"
+```
