@@ -24,6 +24,7 @@ A super fast and extremely minimal shell prompt.
 * [Philosophy](#philosophy)
 * [Installation](#installation)
 * [Tests](#tests)
+* [Hacking](#hacking)
 * [Compile time options](#compile-time-options)
 
 <!-- vim-markdown-toc -->
@@ -64,6 +65,11 @@ npm install promptless
 Run `./test.sh` to run unit tests on `promptless`.
 
 **NOTE**: The testing framework requires `bash` since its **ROBUST**.
+
+
+## Hacking
+
+An array of intelligent patches are available in the `patches/` subdirectory. Patches for color support are not available as just like scroll-back, colors are bloat.
 
 
 ## Compile time options
