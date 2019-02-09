@@ -19,6 +19,14 @@ A super fast and extremely minimal shell prompt.
 
 ### Installation
 
+**Secure and Safe**
+
+```sh
+curl "https://raw.githubusercontent.com/dylanaraps/promptless/master/install.sh" | sh
+```
+
+**Manual**
+
 ```sh
 # Inside your .bashrc, .zshrc, etc.
 . /path/to/promptless.sh
