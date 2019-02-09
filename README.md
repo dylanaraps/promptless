@@ -2,6 +2,7 @@
 
 <a href="https://discord.gg/BtnTPFF"><img src="https://img.shields.io/discord/440354555197128704.svg"></a>
 <a href="https://travis-ci.org/dylanaraps/promptless"><img src="https://travis-ci.org/dylanaraps/promptless.svg?branch=master"></a>
+<a href=""><img src="https://img.shields.io/badge/Coverage-100%25-green.svg"></a>
 <a href="https://repology.org/metapackage/promptless"><img src="https://repology.org/badge/tiny-repos/promptless.svg" alt="Packaging status"></a>
 
 A super fast and extremely minimal shell prompt.
