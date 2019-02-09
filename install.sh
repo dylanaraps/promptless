@@ -13,43 +13,17 @@ download() {
 }
 
 get_shell() {
-    case "$SHELL" in
-        *bash)
-            rc=".bashrc"
-        ;;
+    rc="${HOME}/.${SHELL##*/}rc"
 
-        *zsh)
-            rc=".zshrc"
-        ;;
-
-        *mksh)
-            rc=".mkshrc"
-        ;;
-
-        *ksh)
-            rc=".kshrc"
-        ;;
-
-        *csh)
-            rc=".cshrc"
-        ;;
-
-        *)
-            rc=".profile"
-        ;;
-    esac
-
-    [[ ! -f ~/$rc || ! -w ~/$rc ]] && {
-        printf '%s\n' "error: No shellrc file found for $SHELL" >&2
-        exit 1
-    }
+    [ ! -f "$rc" ] &&
+       rc="${HOME}/.profile"
 }
 
 main() {
     download
     get_shell
 
-    printf '%s\n' ". '${PWD}/promptless.sh'" >> "${HOME}/${rc}"
+    printf '%s\n' ". '${PWD}/promptless.sh'" >> "$rc"
 }
 
 main "$@"
