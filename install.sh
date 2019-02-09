@@ -7,7 +7,7 @@ download() {
     url="${url}/master/promptless.sh"
 
     curl "$url" > promptless.sh || {
-        printf '%s\n' "error: Couldn't download promptless."
+        printf '%s\n' "error: Couldn't download promptless." >&2
         exit 1
     }
 }
@@ -24,6 +24,7 @@ main() {
     get_shell
 
     printf '%s\n' ". '${PWD}/promptless.sh'" >> "$rc"
+    printf '%s\n' "Installation complete. Relaunch your shell."
 }
 
 main "$@"
