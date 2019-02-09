@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# safe and scure install script.
+# safe and secure install script.
 
 download() {
     url="https://raw.githubusercontent.com/dylanaraps/promptless"
