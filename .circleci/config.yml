@@ -1,6 +1,6 @@
 jobs:
     shellcheck:
-        type: machine
+        machine: true
         steps:
           - run:
                 command: |
@@ -11,6 +11,7 @@ workflows:
   version: 2
   workflow:
     jobs:
+        machine: true
       - shellcheck
       - build-job:
           requires:
