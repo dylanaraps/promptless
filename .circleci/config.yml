@@ -1,5 +1,6 @@
 jobs:
     shellcheck:
+        type: machine
         steps:
           - run:
                 command: |
