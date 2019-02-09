@@ -1,0 +1,7 @@
+diff --git a/promptless.sh b/promptless.sh
+index 6a0a2d0..ceb7104 100755
+--- a/promptless.sh
++++ b/promptless.sh
+@@ -1 +1 @@
+-export PS1="➜ "
++export PS1="$HOSTNAME ➜ "
