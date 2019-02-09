@@ -5,6 +5,7 @@ all:
 	@mkdir -p build
 	@cp -p promptless.sh build/promptless
 	@sed -i s/➜/$(CHAR)/ build/promptless
+	@echo Compiled binary in ./build/
 
 install:
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
