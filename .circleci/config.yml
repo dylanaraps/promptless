@@ -1,22 +1,10 @@
 jobs:
-    shellcheck:
+    build:
         machine: true
         steps:
-          - run:
-                command: |
-                    ./test.sh
-                    shellcheck install.sh test.sh promptless.sh -e SC2148
-
-workflows:
-  version: 2
-  workflow:
-    jobs:
-        machine: true
-      - shellcheck
-      - build-job:
-          requires:
-            - shellcheck
-          filters:
-            branches:
-              only: master
-
+            - run:
+                name: Running tests
+                command: ./test.sh
+            - run:
+                name: Shellceck
+                command: shellcheck install.sh test.sh promptless.sh -e SC2148
