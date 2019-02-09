@@ -12,4 +12,5 @@ install:
   - shellcheck() { "shellcheck-${scversion}/shellcheck" "$@"; }
 
 script:
+    - ./test.sh
     - shellcheck install.sh test.sh promptless.sh -e SC2148
