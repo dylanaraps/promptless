@@ -37,6 +37,10 @@ curl "https://raw.githubusercontent.com/dylanaraps/promptless/master/install.sh"
 npm install promptless
 ```
 
+**Distros**
+
+- Arch: `promptless` in the AUR.
+
 **Manual**
 
 ```sh
