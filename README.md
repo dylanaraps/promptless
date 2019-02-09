@@ -5,8 +5,6 @@
 <a href=""><img src="https://img.shields.io/badge/coverage-100%25-green.svg"></a>
 <a href=""><img src="https://img.shields.io/github/size/dylanaraps/promptless/promptless.sh.svg?style=flat"></a>
 <a href=""><img src="https://img.shields.io/snyk/vulnerabilities/npm/promptless.svg?style=flat"></a>
-<a href=""><img src="https://img.shields.io/npm/v/promptless.svg?style=flat
-"></a>
 <a href="https://repology.org/metapackage/promptless"><img src="https://repology.org/badge/tiny-repos/promptless.svg" alt="Packaging status"></a>
 
 A super fast and extremely minimal shell prompt.
