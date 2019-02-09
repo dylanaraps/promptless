@@ -8,7 +8,7 @@
 
 A super fast and extremely minimal shell prompt.
 
-### Features
+## Features
 
 - Fast
 - Minimal
@@ -18,12 +18,12 @@ A super fast and extremely minimal shell prompt.
 - Works in all shells (*that use `$PS1`*).
 
 
-### Philosophy
+## Philosophy
 
 `promptless` follows the [suckless philosophy](https://suckless.org/philosophy/) and is simple by design. The code-base has a focus on elegance and clarity. The prompt is entirely hackable. Unnecessary and unworthy features need to be patched in.
 
 
-### Table of Contents
+## Table of Contents
 
 <!-- vim-markdown-toc GFM -->
 
@@ -34,7 +34,7 @@ A super fast and extremely minimal shell prompt.
 <!-- vim-markdown-toc -->
 
 
-### Installation
+## Installation
 
 **Secure and Safe**
 
@@ -59,14 +59,14 @@ npm install promptless
 . /path/to/promptless.sh
 ```
 
-### Tests
+## Tests
 
 Run `./test.sh` to run unit tests on `promptless`.
 
 **NOTE**: The testing framework requires `bash` since its **ROBUST**.
 
 
-### Compile time options
+## Compile time options
 
 You can customize the prompt character at compile time.
 
