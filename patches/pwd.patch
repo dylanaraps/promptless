@@ -4,4 +4,4 @@ index 6a0a2d0..169ba84 100755
 +++ b/promptless.sh
 @@ -1 +1 @@
 -export PS1="➜ "
-+export PS1="${PWD} ➜ "
++export PS1="\${PWD} ➜ "
