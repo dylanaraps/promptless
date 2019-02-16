@@ -9,7 +9,7 @@ all:
 
 install:
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
-	@cp -p promptless.sh $(DESTDIR)$(PREFIX)/bin/promptless.sh
+	@cp -p build/promptless $(DESTDIR)$(PREFIX)/bin/promptless.sh
 	@chmod 755 $(DESTDIR)$(PREFIX)/bin/promptless.sh
 
 uninstall:
