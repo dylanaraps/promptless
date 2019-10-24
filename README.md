@@ -50,6 +50,13 @@ curl "https://raw.githubusercontent.com/dylanaraps/promptless/master/install.sh"
 npm install promptless
 ```
 
+**Run with Docker**
+
+```sh
+docker build -t promptless .
+docker run -it promptless
+```
+
 **Distros**
 
 - Arch: `promptless` in the AUR.
