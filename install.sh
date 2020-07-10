@@ -23,7 +23,7 @@ main() {
     download
     get_shell
 
-    printf '%s\n' ". '~/promptless.sh'" >> "$rc"
+    printf '%s\n' ". ~/promptless.sh" >> "$rc"
     printf '%s\n' "Installation complete. Relaunch your shell."
 }
 
